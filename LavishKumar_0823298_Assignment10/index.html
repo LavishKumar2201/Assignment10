@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spencer</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
+    <nav class="navbar navbar-expand-lg navbar-white bg-danger"> 
+        <div class="container">
+      <a class="navbar-brand" href="#">Spencer</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-black text-center py-5">
+    <h1>Lavish Kumar</h1>
+  </header>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>All kinds of laptops available.</p>
+        </div>
+        <div class="col-md-6">
+          <p>Get your favourite device on great discount.</p>
+        </div>
+      </div>
+    </div>
+    <img src="laptop.jpeg" class="card-img-top" alt="Image of the laptop">
+  </section>
+
+  <section id="products" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Items</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">XYZ</h5>
+              <p>Write and calculate quickly with roomy keypads, separate numeric keypad and calculator hotkey.</p>
+             </div>
+            <div class="card-body">
+                <h5 class="card-title">ABC</h5>
+                <p>Keep your wrists comfortable as you type with the practical typing angle of the lift hinge with this Intel i5 laptop.</p>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">IJK</h5>
+                <p>With an FHD camera equipped with temporal noise reduction and wide dynamic range, you'll be seen clearly under a range of lighting conditions</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h2>List</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>XYZ</td>
+          <td>$9.99</td>
+          <td>130</td>
+        </tr>
+        <tr>
+            <td>ABC</td>
+            <td>$9.99</td>
+            <td>131</td>
+          </tr>
+          <tr>
+            <td>IJK</td>
+            <td>$9.99</td>
+            <td>96</td>
+          </tr>
+        
+      </tbody>
+    </table>
+
+  <div class="container mt-5">
+    <h2> Form</h2>
+    <form>
+      <div class="form-group">
+        <label for="productName"> Name</label>
+        <select class="form-control" id="productName">
+          <option>Select </option>
+          <option>ABC</option>
+          <option>XYZ</option>
+          <option>IJK</option>
+      </div>
+
+      <div class="form-group">
+        <label for="orderSwitch">Would you like to order?</label>
+        <div class="custom-control custom-switch">
+          <input type="checkbox" class="custom-control-input" id="orderSwitch">
+          <label class="custom-control-label" for="orderSwitch">order</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="quantityRange">Quantity</label>
+        <input type="range" class="form-control-range" id="quantityRange" min="0" max="1">
+      </div>
+
+      <button type="submit" class="btn btn-primary">order</button>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
